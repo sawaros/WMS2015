@@ -13,7 +13,7 @@ namespace WarehouseManagement.Core
         private SqlConnection conn;
 
         /// <constructor>
-        /// Initialise Connection
+        /// Initialise Connection 
         /// </constructor>
         public dbConnection()
         {
