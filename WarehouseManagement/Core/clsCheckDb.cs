@@ -9,5 +9,6 @@ namespace WarehouseManagement.Core
     class clsCheckDb
     {
 
+        int ci;
     }
 }
