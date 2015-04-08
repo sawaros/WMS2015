@@ -2,6 +2,7 @@
 <DirectedGraph DataVirtualized="True" Layout="Sugiyama" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
   <Nodes>
     <Node Id="(@1 Namespace=WarehouseManagement)" Category="CodeSchema_Namespace" Bounds="20,155,187.34,25" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="WarehouseManagement" />
+    <Node Id="(@1 Namespace=WarehouseManagement.Core Type=Window1)" Category="CodeSchema_Class" Bounds="0,0,111.146666666667,25" CodeSchemaProperty_IsPublic="True" CommonLabel="Window1" DelayedChildNodesState="NotFetched" Group="Collapsed" Icon="CodeSchema_Class" Label="Window1" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///C:/Users/5701965/Source/Repos/WMS2015/WMS2015/WarehouseManagement/Core/Window1.xaml.cs StartLineNumber=19 StartCharacterOffset=4 EndLineNumber=19 EndCharacterOffset=4)" />
     <Node Id="(@1 Namespace=WarehouseManagement.Core Type=clsCheckDb)" Category="CodeSchema_Class" Bounds="66.4183333333333,80,122.013333333333,25" CodeSchemaProperty_IsInternal="True" CommonLabel="clsCheckDb" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="clsCheckDb" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///C:/Users/5701965/Source/Repos/WMS2015/WMS2015/WarehouseManagement/Core/clsCheckDb.cs StartLineNumber=8 StartCharacterOffset=4 EndLineNumber=8 EndCharacterOffset=4)" />
     <Node Id="(@1 Namespace=WarehouseManagement.Properties)" Category="CodeSchema_Namespace" Bounds="20,210,243.71,25" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="WarehouseManagement‎.Properties" />
     <Node Id="@2" Category="CodeSchema_Assembly" Bounds="0,0,283.71,255" DelayedChildNodesState="Fetched" DelayedCrossGroupLinksState="Fetched" FetchedChildrenCount="3" Group="Expanded" Label="WarehouseManagement.exe" />
@@ -11,6 +12,7 @@
     <Link Source="@2" Target="(@1 Namespace=WarehouseManagement)" Category="Contains" FetchingParent="@2" />
     <Link Source="@2" Target="(@1 Namespace=WarehouseManagement.Properties)" Category="Contains" FetchingParent="@2" />
     <Link Source="@2" Target="@3" Category="Contains" FetchingParent="@2" />
+    <Link Source="@3" Target="(@1 Namespace=WarehouseManagement.Core Type=Window1)" Category="Contains" FetchingParent="@3" />
     <Link Source="@3" Target="(@1 Namespace=WarehouseManagement.Core Type=clsCheckDb)" Category="Contains" FetchingParent="@3" />
   </Links>
   <Categories>
@@ -26,6 +28,7 @@
     <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
     <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
     <Property Id="CodeSchemaProperty_IsInternal" Label="Is Internal" Description="Flag to indicate the method is 'Internal'" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsPublic" Label="Is Public" Description="Flag to indicate the scope is Public" DataType="System.Boolean" />
     <Property Id="CommonLabel" DataType="System.String" />
     <Property Id="DataVirtualized" Label="Data Virtualized" Description="If true, the graph can contain nodes and links that represent data for virtualized nodes/links (i.e. not actually created in the graph)." DataType="System.Boolean" />
     <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
